@@ -15,7 +15,7 @@ function Navbar() {
             <Link to="/funcionario" className="hover:opacity-75">
               Colaboradores
             </Link>
-            <Link to="/sobrenos" className="hover:opacity-75">
+            <Link to="/integrante" className="hover:opacity-75">
               Sobre Nós
             </Link>
           </div>

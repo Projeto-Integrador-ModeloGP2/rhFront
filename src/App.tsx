@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 
 import "./App.css";
 import CardFuncionario from "./components/funcionario/cardfuncionario/CardFuncionario";
+import CardIntegrante from "./components/integrante/cardintegrante/CardIntegrante";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/home" element={<Home />} />
             <Route path="/funcionario" element={<CardFuncionario />} />
+            <Route path="/integrante" element={<CardIntegrante />} />
           </Routes>
         </div>
         <Footer />
